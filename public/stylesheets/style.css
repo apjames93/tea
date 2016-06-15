@@ -1,8 +1,14 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/04/Tea_in_different_grade_of_fermentation.jpg');
+  background-size: cover;
 }
 
 a {
   color: #00B7FF;
+}
+
+h1, li, a {
+  font-size: 1.5rem;
 }

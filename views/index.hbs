@@ -1,2 +1,10 @@
 <h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<p>Welcome to our site</p>
+<ul>
+  {{#each list}}
+  <li>
+  <a href="/{{this.id}}">{{this.name}}</a>
+  {{this.type}}</li>
+  {{/each}}
+</ul>
+<a href="/create">Click here to add more teas!</a>
